@@ -60,3 +60,25 @@ nav ul {
 .active {
   border-bottom: 2.5px solid #00FF00;
 }
+
+footer {
+  clear: both;
+  bottom: 0;
+  background-color: green;
+}
+
+.social-networks {
+  text-align: center;
+}
+
+.social-networks li {
+  display: inline;
+}
+
+.social-networks i {
+  font-size: 160%;
+  margin: 1%;
+  padding: 1% 5% 1% 5%;
+  color: white;
+  text-shadow: 2px 2px 4px #000000, 4px 4px 28px #FF00FF;
+}
