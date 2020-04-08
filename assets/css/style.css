@@ -82,3 +82,9 @@ footer {
   color: white;
   text-shadow: 2px 2px 4px #000000, 4px 4px 28px #FF00FF;
 }
+
+#gallery-footer {
+  clear: both;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.0);
+}
