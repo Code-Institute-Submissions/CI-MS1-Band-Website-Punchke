@@ -38,3 +38,21 @@ header a:hover {
 header a:active {
   color: green;
 }
+
+nav ul {
+  float: right;
+  letter-spacing: 4px;
+  font-size: 135%;
+}
+
+ nav li {
+  display: inline;
+  float: left;
+  padding: 20px;
+  line-height: 25px;
+}
+
+.table {
+  display: table;
+  margin: 0 auto;
+}
