@@ -9,3 +9,8 @@
   list-style-type: none;
   text-decoration: none;
 }
+
+body {
+  font-family: 'Indie Flower', cursive;
+  font-weight: 900;
+}
