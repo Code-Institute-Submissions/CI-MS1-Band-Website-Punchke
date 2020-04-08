@@ -22,3 +22,19 @@ header {
   top: 0;
 }
 
+header a:link {
+  color: #00FF00;
+}
+
+header a:visited {
+  color: #00FF00;
+}
+
+header a:hover {
+  color: #FF00FF;
+  border-bottom: 1.5px solid #FF00FF;
+}
+
+header a:active {
+  color: green;
+}
