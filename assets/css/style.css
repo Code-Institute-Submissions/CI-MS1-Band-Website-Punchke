@@ -88,3 +88,8 @@ footer {
   bottom: 0;
   background: rgba(255, 255, 255, 0.0);
 }
+
+#gallery-body {
+  background-image: url("https://i.ytimg.com/vi/sJZZmwLMiFw/maxresdefault.jpg");
+  background-repeat: repeat-y;
+}
