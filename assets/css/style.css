@@ -104,3 +104,9 @@ footer {
 #gallery img {
   width: 100%;
 }
+
+#about-body {
+  background-image: url("/assets/img/tri limuna - cut.JPG");
+  background-position: center;
+  background-size: cover;
+}
