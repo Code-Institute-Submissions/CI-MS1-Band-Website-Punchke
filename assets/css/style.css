@@ -276,3 +276,58 @@ footer {
     padding: 10px 0 10px 0;
     cursor: pointer;
   }
+
+  .bottom, .top {
+  width: 100%;
+}
+
+#crossfade {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  z-index: -1;
+}
+
+#crossfade img {
+  position: absolute;
+  left: 0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+#crossfade img.top:hover {
+  opacity: 0;
+}
+
+@keyframes cfFadeInOut {
+0% {
+opacity: 1;
+}
+20% {
+opacity: 0.8;
+}
+40% {
+opacity: 0.6;
+}
+60% {
+opacity: 0.4;
+}
+80% {
+opacity: 0.2;
+}
+100% {
+opacity: 0;
+}
+}
+
+#crossfade img.top {
+animation-name: cfFadeInOut;
+animation-timing-function: ease-in;
+animation-iteration-count: infinite;
+animation-duration: 15s;
+animation-delay: 1s;
+animation-direction: alternate;
+}
