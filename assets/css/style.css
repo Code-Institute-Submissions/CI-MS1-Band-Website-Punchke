@@ -170,3 +170,109 @@ footer {
   color: #FF00FF;
   border-bottom: 1.5px solid #FF00FF;
 }
+
+#news-body {
+  background-image: url("https://f4.bcbits.com/img/0017786643_100.png");
+  background-repeat: repeat-y;
+  background-size: 100%;
+}
+
+#news-section1 {
+  padding: 1% 1% 2% 2%;
+}
+
+#news-section1 img {
+  float: right;
+  width: 50%;
+}
+
+#news-section1 h1 {
+  font-size: 300%;
+}
+
+#news-section1 h2 {
+  font-size: 250%;
+}
+
+#news-section1 h3, #news-section1 a  {
+  font-size: 150%;
+}
+
+#news-section1 a {
+  padding: 1% 2% 1% 2%;
+  border: 2.5px solid #708090;
+  color: black;
+}
+
+#news-section1 a:hover {
+  background-color: #708090;
+  color: white;
+  text-shadow: 2px 2px 4px #000000, 4px 4px 28px #FF00FF; 
+}
+
+#news-section1-text {
+  text-align: center;
+  font-family: 'Permanent Marker', cursive; 
+  padding-top: 10%;
+}
+
+#news-section2 {
+  clear: both;
+}
+
+#news-section2 iframe {
+  float: right;
+  padding: 2% 1% 2% 0;
+}
+
+.newsletter-form {
+  text-align: center;
+  width: 45%;
+  padding-top: 2%;
+  background-color: #708090;
+  font-family: 'Special Elite', cursive;
+}
+
+.newsletter-form ul {
+  float: right;
+  letter-spacing: 4px;
+  font-size: 135%;
+}
+
+ .newsletter-form li {
+  display: inline;
+  float: left;
+  padding: 20px 15px 20px 15px;
+  line-height: 25px;
+}
+
+.newsletter-form h1 {
+  font-size: 175%;
+}
+
+.newsletter-form p {
+  padding: 3% 0 3% 0;
+}
+
+#newsletter-form-p2 {
+  font-size: 75%;
+}
+
+#newsletter-form-div {
+  padding: 2% 0 0 1%;
+}
+
+.newsletter-form input {
+  font-size: 65%;
+  font-family: inherit;
+}
+
+.newsletter-form-inputs {
+  width: 80%;
+  padding: 10px 0 10px 0;
+  }
+
+  #newsletter-form-submit {
+    padding: 10px 0 10px 0;
+    cursor: pointer;
+  }
