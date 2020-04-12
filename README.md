@@ -1,35 +1,24 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+## **"Punchke" Band Website**
 
-Welcome USER_NAME,
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
+This website was built for the purposes of my first independent project at Code Institute.
 
-## Gitpod Reminders
+This was a static front end project: the requirements were to write HTML5 and CSS3 code to bulid a website of my own choosing i.e. design.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+The general idea, or rather the subject matter - to choose to build a band website - stemmed from one of Code Institute's suggestions for the project's topic: to design a website for either a real or a fictional band.
 
-`python3 -m http.server`
+Firstly, choosing a real band seemed easier to do - there could be actual band photos, record covers, music, and overall band esthetic to draw upon. And this band - Punčke ("Punčke being the original spelling, to be pronunced as if it was spelled "Punchke") - might have the first band to come to mind to me.
 
-A blue button should appear to click: *Make Public*,
+I would consider myself a longtime fan of the band: listenintg to their music and gong to their shows over a span of years. 
+Being a part of their audience, I figured I have an impression and have formed a view of their esthetic that would help in making the design choices for the website.
 
-Another blue button should appear to click: *Open Browser*.
+Furthermore, the band didn't have a website that I was aware of - so I couldn't have been "too much" influenced by that, which made things additionally interesting; the band did have a social media presence on sites like Facebook, Instagram, Twitter, and Youtube, as well as a Bandcamp page.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+Additionally, it was not a high-profile band, so I didn't think they'd mind in me using the for my project like this. 
+I also have at one point in the past exchanged some emails with the band, and even met them on one occassion - all of this, again, aiding to the overall impression they wouldn't mind me using them for this project.
+But I have not contacted to check this.
 
-A blue button should appear to click: *Make Public*,
+To mention lastly that the band has recently retired.
 
-Another blue button should appear to click: *Open Browser*.
+---
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons.
-
-## Updates Since The Instructional Video
-
-We continually tweak and adjust this template to help give you the best experience. Here are the updates since the original video was made:
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
---------
-
-Happy coding!
