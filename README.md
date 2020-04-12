@@ -64,6 +64,50 @@ The topics for the subsites changed throughout the project, with this being the 
 
 * gallery
 
+So, this would compose the navbar, which would make up the header.
+
+### *Header*
+
+The skeleton of the header is described above.
+
+Each of the websites five pages would contain the same header - for consistency reasons - apart from the "merch" page, 
+which would not in fact exist (within the confines of my project) - in the sense that it is not made by me - I rather just link to the band's existing merchandise website.
+
+### *Footer*
+
+Footer consist of links to the band's social media sites, where the links as represented as Font Awesome's corresponding icons.
+
+Social media sites represented are:
+
+* Facebook
+* Instagram
+* YouTube
+* Twitter
+
+The links all lead to actual accounts the band has on these platforms.
+
+Although the conceptual contents of the footer don't differ for any of the pages, the footer doesn't look the same for all of the pages,
+for reasons that will be spoken about when speaking about each of those pages further down.
+
+### *News*
+
+
+### *About*
+
+### *index.html / Punčke*
+
+### *Merch*
+
+### *Gallery*
+
+The "Gallery" section consisit of band photos style into a so-called *masonry* style look.
+
+The photos were chosen by of what I could find on the internet.
+
+I chose photos that seemed appealing to me for various reasons, and I think I managed to obtain a good balance between 
+different photo sizes, live performances, press realease photos and more spontaneous, more private looking photos, black and white and color photos, 
+photos from various stages of the band (encompassing different lineups), etc.
+
 <sup>1</sup> As it might become evident at this point, the design process was desktop first, and the backtracking to mobile. Which would also imply I possible didn't use Bootstrap - which I didn't. More on the reasoning - or the impulses - behind that decision later.
 
 <sup>2</sup> Navbar i.e. the pages links it containes are stylized horizontally, as will be shown later.
