@@ -186,7 +186,7 @@ the photos in the gallery.
 The footer for the gallery was styled to accompany the chosen background: footer has no background, and the social media links icons it containts are rendered in neon white, with 
 some shadow effects.
 
-This styling evokes a kind of a "dark roome" feel to it, which goes with the content being entirely photos.
+This styling evokes a kind of a "dark room" feel to it, which goes with the content being entirely photos.
 
 The background image is set to repeat horizontally.
 
@@ -219,6 +219,23 @@ Styling of the header is the same as on other pages of the website.
 * Windows Snipping Tools
 
 * Canon MG3650 Scanner
+
+## **Testing**
+
+This project was manually tested as it was buing built.
+
+Project was primarily built using Repl.it, before being "migrated" (retyped) to GitPod, and stored on GitHub.
+
+Different features, ideas, and variants of the projects could be quickly tested out in different "repls", as the project overall 
+wasn't too demanding for Repl.it's capacities.
+
+Project was presented to my mentor at various stages, with invaluable feedback taken into account (for instance, that I should, as a rule of thumb, 
+avoid using more that three font families - I had four at the time, shich I then reduced to three).
+
+W3C HTML and W3C CSS Validators were also use to asses the code.
+
+Use of Chrome DevTools was indispensible throughout the project.
+
 
 ## **Deployement**
 
