@@ -106,6 +106,21 @@ one - the first one that's loaded with the page - which is a pixelated image whi
 The second image is not initially visible. As the user opens the website and starts hovering over it, it triggers an animation where the first image slowly fades into the second, and then vice versa.
 The direction of the fading keeps alternating *ad infinitum*.
 
+There is no footer on this page, as it might take atenttion away from the images, and might not "fit" so well with them - especially 
+as the band's name and record's title are located at the bottom of the cover, and it's desirable that they both catch and occupy the user attention, as the title of record corresponds semantically with the crossfaded imagery.
+
+There is plenty of chance to use the footer's links on other pages of the website.
+
+Also, let's say this is an actual website for the band available on the internet: if a user googles the band, he or she should see all their social media profiles come up in the search results: nobody's at much of a loss if links to all those profile 
+don't also come up right on the first page of the website.
+
+This particular "sparseness" of the index page, along with the open space implied by the photo of the sky, evokes a kind of a "entry" effect - like if it was a doorway of sort: here's our website, feel free to come in to find out more.
+Which also urges user to browse the remainder of the website if he or she indeed wishes to find out more.
+
+The header is not "sticky" on this particular page - it does not scroll down with the user. Which also seems favorable: so there is nothing to "obstruct" or "take away" from the imagery/animation.
+
+The photo of the cloudy sky was taken by me.
+
 ### *Merch*
 
 As mentioned earlier, the "merch" page isn't a part of this website, but rather external to it: if you click on the "merch" 
