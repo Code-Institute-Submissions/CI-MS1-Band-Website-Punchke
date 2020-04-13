@@ -91,8 +91,49 @@ for reasons that will be spoken about when speaking about each of those pages fu
 
 ### *News*
 
+Header is identically styled as elswhere on the website, and is "sticky" (it scrolls with the user).
+
+Footer is styled as on the "About" page. Icons in the footer are styled identically as elsewhere on the website - the difference between
+the footer on the "News" and "About" pages, and on the "Gallery" page is that the former have a green background that corresponds to the background of the header;
+whereas the Gallery's footer has no background color set (i.e. it has the same black background color as is present in the Gallery's body's background).
+
+Background for the "News" page is the design of the band latest (and last) EP's title, set to repeat horizontally.
+
+Upper half of the page juxstaposes the image of the band's aforementioned latest EP (image is that of the EP's physical copy - as is evident by the wraping creases on the sides - as opossed to just a copy of the cover design), 
+with a text announcing that that latest EP is up, and also containg a clickable button that links to the band's Bandcamp page where that EP can be heard.
+
+The bottom half of the page juxstposes in a corresponding manner an imbedded YouTube video for a single of the latest EP, with a form with which user can subsribe for newsletter if they wish to be kept up to date with more news about the band.
 
 ### *About*
+
+Header and footer identical as on the "News" page.
+
+Page has a tet about the band, wrapped around a photo of the band.
+
+The photo is from their latest EP's photo sessions, and thus depicts the bands latest lineup and look.
+
+The text is taken almost verbatim from the About section of the band's Facebook site, with only some minor typo corresctions made.
+
+Page contains info about the current band memebers, their hometown (hometowns) and current location, and contact details - also all takne from the band's Facebook page - as well as a link to their discography, via a link to their Bandcamp page.
+
+The background is something that I tried to "force" onto the page - I cared that used this particular background.
+
+The background is a image from a tea towel I have at my home (I'm not even a 100% sure anymore at which store did I buy it). It depicts three lemons (with the words "so fresh" repeated three time beneath).
+
+I took this to be a metaphor for the band. The band is a trio; and the lemons, three lemons should be a metaphor of the detractors and the put-downs that I read thorugh their interviews that they were faced with throughout their career as band: 
+to be percieved as "lemons", three lemons, three "bad eggs", that nothing will come out of, etc.
+
+Lemons are also evocative of the phrase: "When life gives you lemons...". Which corresponds to DIY nature: they're a self-released, self-made, DIY band.
+
+The fact that the background image is made by me from a tea towel - a dirt-cheap, ordinary-supermarket, everyday, "found object" - also corresponds well with the DIY esthetic and ethic.
+
+Plus it's an image depicting fruit - which might also kind of invokes a "grass-roots" type of thing connotations, which also plays into the whole picture depicted here.
+
+Anyway, I quite liked all of this semantical strands intertwining and coming together, so I tried to keep that background image and make it work with the color scheme and typography, if in any way possible.
+
+This is to explain that I'm aware that green and dark tones of the leaves of the lemons clash somewhat with the text - making it harder to read - and to explain why this is so.
+
+The white and the yellow pose no such issues and work quite nice; as do the textures and the creases of the actual tea towel, in my opinion.
 
 ### *index.html / Punčke*
 
