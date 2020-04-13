@@ -86,7 +86,7 @@ Social media sites represented are:
 
 The links all lead to actual accounts the band has on these platforms.
 
-Although the conceptual contents of the footer don't differ for any of the pages, the footer doesn't look the same for all of the pages,
+Although the conceptual contents of the footer don't differ for any of the pages (i.e. every footer on the website, no matter what page it's on, contains said links to the band's social media profiles), the footer doesn't look the same for all of the pages,
 for reasons that will be spoken about when speaking about each of those pages further down.
 
 ### *News*
@@ -96,7 +96,15 @@ for reasons that will be spoken about when speaking about each of those pages fu
 
 ### *index.html / Punčke*
 
+The main idea for the index.html page - the "main page" of the website - stems from the band's album cover for their "Sunčano s povremenom naoblakom" LP.
 
+The title is a Croatian weather report phrase, which translates as "sunny with occassional cloudiness".
+
+Page is executed fairly sparse, consisting only of a header - styled identically as on all other subsites - and of a so-called "crossfade" animation of two images:
+one - the first one that's loaded with the page - which is a pixelated image which is the band actual cover for the aforementioned album; and the other which a photo a blue sky interspersed with patches of clouds.
+
+The second image is not initially visible. As the user opens the website and starts hovering over it, it triggers an animation where the first image slowly fades into the second, and then vice versa.
+The direction of the fading keeps alternating *ad infinitum*.
 
 ### *Merch*
 
@@ -125,6 +133,8 @@ some shadow effects.
 This styling evokes a kind of a "dark roome" feel to it, which goes with the content being entirely photos.
 
 The background image is set to repeat horizontally.
+
+Styling of the header is the same as on other pages of the website.
 
 <sup>1</sup> As it might become evident at this point, the design process was desktop first, and the backtracking to mobile. Which would also imply I possible didn't use Bootstrap - which I didn't. More on the reasoning - or the impulses - behind that decision later.
 
