@@ -1,7 +1,9 @@
+/*Import desired fonts.*/
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
 
+/*Convention: overwritting default settings for (i.e. reseting) these stylings, just in case.*/
 * {
   padding: 0;
   border: 0;
@@ -10,11 +12,14 @@
   text-decoration: none;
 }
 
+/*Applying chosen fonts to body.*/
 body {
   font-family: 'Indie Flower', cursive;
   font-weight: 900;
 }
 
+/*start: Styling the header.*/
+    /*"Sticking" the header to the top.*/
 header {
   background-color: green;
   position: -webkit-sticky;
@@ -22,6 +27,7 @@ header {
   top: 0;
 }
 
+    /*start: Styling the navbar links (i.e. anchor elements).*/
 header a:link {
   color: #00FF00;
 }
@@ -37,8 +43,10 @@ header a:hover {
 
 header a:active {
   color: green;
-}
+}   /*end: Styling the navbar links (i.e. anchor elements).*/
 
+    /*start: Making the navbar elements display side by side, and without having tho change their order.
+    (https://teamtreehouse.com/community/reordering-li-elements-to-float-right)*/
 nav ul {
   float: right;
   letter-spacing: 4px;
@@ -55,18 +63,22 @@ nav ul {
 .table {
   display: table;
   margin: 0 auto;
-}
+}   /*end: Making the navbar elements display side by side.*/
 
+    /*Styling the "active" class - i.e. subsite user is currently on.*/
 .active {
   border-bottom: 2.5px solid #00FF00;
-}
+} /*end: Styling the header.*/
 
+
+/*start: Styling the footer.*/
 footer {
   clear: both;
   bottom: 0;
   background-color: green;
 }
 
+    /*start: Centering social networks links within the footer and making them display side by side.*/
 .social-networks {
   text-align: center;
 }
@@ -81,8 +93,10 @@ footer {
   padding: 1% 5% 1% 5%;
   color: white;
   text-shadow: 2px 2px 4px #000000, 4px 4px 28px #FF00FF;
-}
+}   /*end: Centering social networks links within the footer and making them display side by side.*/ 
+/*end: Styling the footer.*/
 
+/*Alternate styling for the gallery footer.*/
 #gallery-footer {
   clear: both;
   bottom: 0;
@@ -94,6 +108,7 @@ footer {
   background-repeat: repeat-y;
 }
 
+/*start: Gallery "masonry" style styling.*/
 #gallery {
   clear: both;
   line-height: 0;
@@ -103,7 +118,7 @@ footer {
 
 #gallery img {
   width: 100%;
-}
+} /*end: Gallery "masonry" style styling.*/
 
 #about-body {
   background-image: url("/assets/img/tri limuna - cut.JPG");
@@ -174,7 +189,7 @@ footer {
 #news-body {
   background-image: url("https://f4.bcbits.com/img/0017786643_100.png");
   background-repeat: repeat-y;
-  background-size: 100%;
+  background-size: 100%; /*If background-size is not set like this, selected image is "too short" horizontally (not the case with #gallery-body).*/
 }
 
 #news-section1 {
@@ -183,7 +198,7 @@ footer {
 
 #news-section1 img {
   float: right;
-  width: 50%;
+  width: 50%; /*Width selected to align left edge of image with that of video window beneath it.*/
 }
 
 #news-section1 h1 {
@@ -213,11 +228,11 @@ footer {
 #news-section1-text {
   text-align: center;
   font-family: 'Permanent Marker', cursive; 
-  padding-top: 10%;
+  padding-top: 10%; /*Push that portion of the text lower.*/
 }
 
 #news-section2 {
-  clear: both;
+  clear: both; /*To make the form (and video) be beneath the image preceding them.*/
 }
 
 #news-section2 iframe {
@@ -270,14 +285,14 @@ footer {
 .newsletter-form-inputs {
   width: 80%;
   padding: 10px 0 10px 0;
-  }
+}
 
-  #newsletter-form-submit {
+#newsletter-form-submit { 
     padding: 10px 0 10px 0;
     cursor: pointer;
-  }
+}
 
-  .bottom, .top {
+.bottom, .top {
   width: 100%;
 }
 
