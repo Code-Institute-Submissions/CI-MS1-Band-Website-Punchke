@@ -96,17 +96,35 @@ for reasons that will be spoken about when speaking about each of those pages fu
 
 ### *index.html / Punčke*
 
+
+
 ### *Merch*
+
+As mentioned earlier, the "merch" page isn't a part of this website, but rather external to it: if you click on the "merch" 
+link in the header, it open a bands pre-existing merchandise site in a new tab.
 
 ### *Gallery*
 
 The "Gallery" section consisit of band photos style into a so-called *masonry* style look.
 
-The photos were chosen by of what I could find on the internet.
+The photos were chosen by me out of what I could find on the internet.
 
 I chose photos that seemed appealing to me for various reasons, and I think I managed to obtain a good balance between 
 different photo sizes, live performances, press realease photos and more spontaneous, more private looking photos, black and white and color photos, 
 photos from various stages of the band (encompassing different lineups), etc.
+
+Background is composed out of one of the band's designs used for one of their songs. The design is a rehashing of one their earlier designs (which is I'd say my 
+favorite design of theirs, for on of my favorite songs of theirs).
+
+This new take on the design that was used for the background here utilizes a pitch black background with a neon white bright glowing image over it, which I think goes well with 
+the photos in the gallery.
+
+The footer for the gallery was styled to accompany the chosen background: footer has no background, and the social media links icons it containts are rendered in neon white, with 
+some shadow effects.
+
+This styling evokes a kind of a "dark roome" feel to it, which goes with the content being entirely photos.
+
+The background image is set to repeat horizontally.
 
 <sup>1</sup> As it might become evident at this point, the design process was desktop first, and the backtracking to mobile. Which would also imply I possible didn't use Bootstrap - which I didn't. More on the reasoning - or the impulses - behind that decision later.
 
