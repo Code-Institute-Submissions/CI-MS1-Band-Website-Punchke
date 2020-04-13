@@ -60,6 +60,8 @@ nav ul {
   line-height: 25px;
 }
 
+/*"Table" class is to help make the navbar elements display side by side.
+(https://css-tricks.com/centering-list-items-horizontally-slightly-trickier-than-you-might-think/)*/
 .table {
   display: table;
   margin: 0 auto;
