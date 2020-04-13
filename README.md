@@ -192,6 +192,38 @@ The background image is set to repeat horizontally.
 
 Styling of the header is the same as on other pages of the website.
 
+## **Technologies and Tools Used**
+
+* HTML (HTML5)
+
+* CSS (CSS3)
+
+* Repl.it
+
+* Font Awesome
+
+* Google Fonts
+
+* GitHub
+
+* GitPod
+
+* Chrome DevTools
+
+* HTML Validator
+
+* CSS Validator
+
+* SCSS to CSS Compiler - CSS Portal
+
+* Windows Snipping Tools
+
+* Canon MG3650 Scanner
+
+## **Deployement**
+
+
+
 <sup>1</sup> As it might become evident at this point, the design process was desktop first, and the backtracking to mobile. Which would also imply I possible didn't use Bootstrap - which I didn't. More on the reasoning - or the impulses - behind that decision later.
 
 <sup>2</sup> Navbar i.e. the pages links it containes are stylized horizontally, as will be shown later.
