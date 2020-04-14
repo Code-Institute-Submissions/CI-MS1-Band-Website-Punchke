@@ -322,6 +322,10 @@ applying the styling in the about.html file, rather than here.
     cursor: pointer;
 }
 
+#index-body {
+    background-image: url("https://f4.bcbits.com/img/a3405006183_16.jpg");
+}
+
 /*start: Crossfade animation.
 (http://css3.bradshawenterprises.com/cfimg/#cfimg1)*/
 .bottom, .top {
