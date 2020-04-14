@@ -294,6 +294,8 @@ footer {
     cursor: pointer;
 }
 
+/*start: Crossfading animation.
+(http://css3.bradshawenterprises.com/cfimg/#cfimg1)*/
 .bottom, .top {
   width: 100%;
 }
@@ -347,4 +349,4 @@ animation-iteration-count: infinite;
 animation-duration: 15s;
 animation-delay: 1s;
 animation-direction: alternate;
-}
+} /*end: Crossfading animation.*/
