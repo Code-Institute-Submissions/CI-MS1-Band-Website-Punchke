@@ -152,7 +152,7 @@ Page contains info about the current band memebers, their hometown (hometowns) a
 
 The background is something that I tried to "force" onto the page - I cared that used this particular background.
 
-The background is a image from a tea towel I have at my home (I'm not even a 100% sure anymore at which store did I buy it). It depicts three lemons (with the words "so fresh" repeated three time beneath).
+The background is a image from a tea towel I have at my home (I'm not even a 100% sure anymore at which store did I buy it). It depicts three lemons (with the words "so fresh" repeated three times beneath).
 
 I took this to be a metaphor for the band. The band is a trio; and the lemons, three lemons should be a metaphor of the detractors and the put-downs that I read thorugh their interviews that they were faced with throughout their career as band: 
 to be percieved as "lemons", three lemons, three "bad eggs", that nothing will come out of, etc.
@@ -168,6 +168,8 @@ Anyway, I quite liked all of this semantical strands intertwining and coming tog
 This is to explain that I'm aware that green and dark tones of the leaves of the lemons clash somewhat with the text - making it harder to read - and to explain why this is so.
 
 The white and the yellow pose no such issues and work quite nice; as do the textures and the creases of the actual tea towel, in my opinion.
+
+I finally decided to cut the "so fresh" words from the background, as it's dark color clashed to much with the text on the page; and I set the background to repeat horizontally, resulting in a quite nice effect on mobile phones screen sizes.
 
 
 ### ***Merch***
@@ -264,7 +266,7 @@ but gave up on that eventually, as Bootstrap was seemingly causing more issues f
 
 - In my account GitHub website, I selected Repositories
 
-- I selected TravelDiary from the GitHub Dashboard.
+- I selected CI-MS1-Band-Website-Punchke from the GitHub Dashboard.
 
 - I navigated to Settings and to the GitHub Pages section.
 
@@ -320,7 +322,7 @@ the crossfade animation on index.html
 
 I used many sources of inspiration and help, for each of which I am thankful for:
 
- - Code Institute's excercise/tutorial project, named "Love Running" - for the gallery's masonry style look idea, and the code
+ - Code Institute's excercise/tutorial project, named "Love Running" - for the gallery's masonry style look idea, and the code - https://repl.it/@jjuric13/Love-Running
 
 - http://css3.bradshawenterprises.com/cfimg/#cfimg1 - for the code for the crossfading animation, which I tweaked only slightly
 
@@ -329,6 +331,14 @@ I used many sources of inspiration and help, for each of which I am thankful for
 - https://css-tricks.com/centering-list-items-horizontally-slightly-trickier-than-you-might-think/ - this particular article is referenced in the code
 
 - https://teamtreehouse.com/community/reordering-li-elements-to-float-right) - article also referenced in the code
+
+- https://www.freecodecamp.org/news/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c/ - article referenced in the code
+
+- https://css-tricks.com/responsive-menu-concepts/ - for solutions for the navbar responsiveness I was looking for - article also referenced in the code
+
+- https://codepen.io/TimPietrusky/pen/gqlhA - author of my chosen solution for the navbar responsiveness - I tries to tweak his code a bit - original author referenced in my project0s code
+
+- Claire Lally - for being kind enough to send me a link to her readme.md file, to assist me in writting mine - https://github.com/ClaireLally8/TravelDiary/blob/master/README.md
 
 - https://www.w3schools.com/ and https://css-tricks.com/ in general - for all the time I spent there
 
