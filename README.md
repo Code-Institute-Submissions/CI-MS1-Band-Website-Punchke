@@ -281,6 +281,11 @@ Layout of the band memebers, hometown etc. info on the "About" page could be imp
 And the "News" page has some major responsiveness issues - it looks poorly on smaller screens - especially the form; 
 and there's a bug wit the footer on more medium screen width in that it doesn't stay on the bottom of the page.
 
+A weired glitch has been spotted with the black background of the index.html page, and the deployment site: sometimes the backgroun loads, and sometime not, without any 
+alterations being made to the code.
+
+More about "deployment-glitching" further down.
+
 ---
 
 ## **Technologies and Tools Used**
