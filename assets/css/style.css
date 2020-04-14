@@ -483,6 +483,8 @@ nav[role="custom-dropdown"] ul > li:hover > a {
 
 /*start: To keep the footer "where it belongs": 
 https://www.freecodecamp.org/news/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c/ */
+
+/*Idea put on hold, as it seems to pose more problems fro the project than it solves.
 #page-container {
   position: relative;
   min-height: 100vh;
