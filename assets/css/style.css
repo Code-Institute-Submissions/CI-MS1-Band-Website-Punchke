@@ -147,7 +147,7 @@ footer {
 } /*end: Gallery "masonry" style styling.*/
 
 #about-body {
-  background-image: url("/workspace/CI-MS1-Band-Website-Punchke/assets/img/about-background.JPG");
+  background-image: url("/assets/img/about-background.jpg");
   background-position: center;
   /*background-size: cover;*/ /*Made inactive by commenting out while trying out different visula options for this background.*/
   background-repeat: repeat-y;
