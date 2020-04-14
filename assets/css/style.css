@@ -10,6 +10,7 @@
   margin: 0;
   list-style-type: none;
   text-decoration: none;
+  box-sizing: border-box;
 }
 
 /*Applying chosen fonts to body.*/
@@ -294,7 +295,7 @@ footer {
     cursor: pointer;
 }
 
-/*start: Crossfading animation.
+/*start: Crossfade animation.
 (http://css3.bradshawenterprises.com/cfimg/#cfimg1)*/
 .bottom, .top {
   width: 100%;
@@ -349,7 +350,7 @@ animation-iteration-count: infinite;
 animation-duration: 15s;
 animation-delay: 1s;
 animation-direction: alternate;
-} /*end: Crossfading animation.*/
+} /*end: Crossfade animation.*/
 
 /*start: Making the gallery responsive.*/
 @media screen and (max-width: 943px) {
