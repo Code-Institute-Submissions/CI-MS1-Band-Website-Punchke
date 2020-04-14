@@ -10,7 +10,7 @@
   margin: 0;
   list-style-type: none;
   text-decoration: none;
-  box-sizing: border-box;
+  box-sizing: border-box; /*Deemed needed to make later stylings work.*/
 }
 
 /*Applying chosen fonts to body.*/
