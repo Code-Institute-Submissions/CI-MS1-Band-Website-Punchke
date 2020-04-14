@@ -120,6 +120,11 @@ don't also come up right on the first page of the website.
 This particular "sparseness" of the index page, along with the open space implied by the photo of the sky, evokes a kind of a "entry" effect - like if it was a doorway of sort: here's our website, feel free to come in to find out more.
 Which also urges user to browse the remainder of the website if he or she indeed wishes to find out more.
 
+The page also has a background, which becomess evident only on smaller screen sizes.
+The background is the cover for the band's other album - whose title translates to "Nothing is as it seems".
+The cover is completely black, with just the album title and the band's name written on it in white.
+On smaller screen sizes that record title becomes visible, and with the color and the animation running, should play nicely into the overall thing.
+
 The header is not "sticky" on this particular page - it does not scroll down with the user. Which also seems favorable: so there is nothing to "obstruct" or "take away" from the imagery/animation.
 
 The photo of the cloudy sky was taken by me.
