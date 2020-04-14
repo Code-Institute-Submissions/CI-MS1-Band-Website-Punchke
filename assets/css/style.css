@@ -146,16 +146,12 @@ footer {
   width: 100%;
 } /*end: Gallery "masonry" style styling.*/
 
-#about-html {
-    background-image: url("https://i.ibb.co/mq1xyPj/tri-limuna-cut-no-fresh.jpg");
-}
-
-#about-body {
-  
+/*#about-body {
+  background-image: url("https://i.ibb.co/mq1xyPj/tri-limuna-cut-no-fresh.jpg");
   background-position: center;
   /*background-size: cover;*/ /*Made inactive by commenting out while trying out different visula options for this background.*/
-  background-repeat: repeat-y;
-}
+  /*background-repeat: repeat-y;
+}*/
 
 .about-text h2 {
   padding: 2% 2% 3% 1%;
