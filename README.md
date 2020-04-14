@@ -203,8 +203,38 @@ The background image is set to repeat horizontally.
 
 Styling of the header is the same as on other pages of the website.
 
+
+### ***Color Scheme and Typography***
+
+The styling of the icons in the footer was already somewhat disscused above. That styling choice originated from the "Gallery" page, and was kept on other pages for consistency.
+
+Other pages - i.e. "News" and "About" - as opossed to the "Gallery" page, have a green colored background for the footer. to keep them consistent with the header, which alos has such a background.
+
+The color of the letters in the navbar is  #00FF00, which gives a kind of neon green.
+
+Active pseudo classes are styled with a bottom border of the same "neon green" color.
+
+When navbar links are hovered over, they turn neon pink -  #FF00FF - with a matching colored bottom border.
+
+Border is a bit thicker for the active state, and a bit thinner for the hovered over state.
+
+The icons in the footer have a slight shadow effect of the same neon pink color.
+
+The rest of the text across the site is exclusively black, apart from the "listen" button on the "News" page, which mimcs the icons when hovered over, in that it's black become the 
+sort of translucent white of the icons, with the sam neon pink shadow effect.
+
+The "listen" button has a thin border on all sides of a dark slate-grey color - #708090.
+
+When the button is hovered over, it's see-through background becomes filled with that slate-grey, as the letters of the button cahnge color in the described manner.
+
+Same slate-grey color is used for the background of the form field on the "News" page further below, for consistency.
 ---
 
+## **Features**
+
+
+
+---
 
 ## **Technologies and Tools Used**
 
@@ -264,26 +294,12 @@ but gave up on that eventually, as Bootstrap was seemingly causing more issues f
 
 **Deployment To Github Pages**
 
-- In my account GitHub website, I selected Repositories
-
-- I selected CI-MS1-Band-Website-Punchke from the GitHub Dashboard.
-
-- I navigated to Settings and to the GitHub Pages section.
-
-- From the Source section, I clicked on the drop-down menu and selected Master Branch.
-
-- Once Master Branch is selected, the page has been automatically refreshed, with a detailed ribbon display GitHub Source Saved Pages indicating the successful implementation.
-
-The live link can be found here - https://clairelally8.github.io/TravelDiary/
+- 
 
 
 **Local Deployment**
 
- - To run locally, you can do one of the following two options 
-    
-    - Clone the repository using the `git clone https://github.com/clairelally8/traveldiary.git` command
-
-    - Download the zip file, unzip and run it in your favourite local IDE (such as VS Code)
+ - 
 
 ---
 
