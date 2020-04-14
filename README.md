@@ -22,6 +22,7 @@ To mention lastly that the band was recently retired.
 
 ---
 
+
 ## **UX**
 
 Should a student choose to a band website for their project - the way I did - Code Institute's guidelines were as follows:
@@ -36,7 +37,8 @@ Should a student choose to a band website for their project - the way I did - Co
 
 In other words, straight up common sense of what one would expect of a band website: users would expectedly go on the website to find out information about the band, and the site is suppose to provide that information.
 
-### *Structure*
+
+### ***Structure***
 
 The main structural decision posed from the get-go (posed in the official project requirements) was to either:
 
@@ -48,11 +50,11 @@ I opted for the former.
 
 With that choice made, next thing was to choose the topics or the subject matter or the content of those pages - i.e. what will they be about.
 
-I decided to do five pages, for structural symmetry reasons: the navigation bar at the top of the website (viewed in desktop mode)<sup>1</sup> would 
+I decided to do five pages, for structural symmetry reasons: the navigation bar at the top of the website (viewed in desktop mode) would 
 contain centered within it the links to the five pages, the main page (index.html) being in the middle, with two of the other pages (lets refer to those as "subsites" - as opposed to the "main page")
 on either side of it.
 
-The topics for the subsites changed throughout the project, with this being the final choice:<sup>2</sup>
+The topics for the subsites changed throughout the project, with this being the final choice:
 
 * news
 
@@ -66,14 +68,16 @@ The topics for the subsites changed throughout the project, with this being the 
 
 So, this would compose the navbar, which would make up the header.
 
-### *Header*
+
+### ***Header***
 
 The skeleton of the header is described above.
 
 Each of the websites five pages would contain the same header - for consistency reasons - apart from the "merch" page, 
 which would not in fact exist (within the confines of my project) - in the sense that it is not made by me - I rather just link to the band's existing merchandise website.
 
-### *Footer*
+
+### ***Footer***
 
 Footer consist of links to the band's social media sites, where the links as represented as Font Awesome's corresponding icons.
 
@@ -89,7 +93,36 @@ The links all lead to actual accounts the band has on these platforms.
 Although the conceptual contents of the footer don't differ for any of the pages (i.e. every footer on the website, no matter what page it's on, contains said links to the band's social media profiles), the footer doesn't look the same for all of the pages,
 for reasons that will be spoken about when speaking about each of those pages further down.
 
-### *News*
+
+### ***index.html / Punčke***
+
+The main idea for the index.html page - the "main page" of the website - stems from the band's album cover for their "Sunčano s povremenom naoblakom" LP.
+
+The title is a Croatian weather report phrase, which translates as "sunny with occassional cloudiness".
+
+Page is executed fairly sparse, consisting only of a header - styled identically as on all other subsites - and of a so-called "crossfade" animation of two images:
+one - the first one that's loaded with the page - which is a pixelated image which is the band actual cover for the aforementioned album; and the other which a photo a blue sky interspersed with patches of clouds.
+
+The second image is not initially visible. As the user opens the website and starts hovering over it, it triggers an animation where the first image slowly fades into the second, and then vice versa.
+The direction of the fading keeps alternating *ad infinitum*.
+
+There is no footer on this page, as it might take atenttion away from the images, and might not "fit" so well with them - especially 
+as the band's name and record's title are located at the bottom of the cover, and it's desirable that they both catch and occupy the user attention, as the title of record corresponds semantically with the crossfaded imagery.
+
+There is plenty of chance to use the footer's links on other pages of the website.
+
+Also, let's say this is an actual website for the band available on the internet: if a user googles the band, he or she should see all their social media profiles come up in the search results: nobody's at much of a loss if links to all those profile 
+don't also come up right on the first page of the website.
+
+This particular "sparseness" of the index page, along with the open space implied by the photo of the sky, evokes a kind of a "entry" effect - like if it was a doorway of sort: here's our website, feel free to come in to find out more.
+Which also urges user to browse the remainder of the website if he or she indeed wishes to find out more.
+
+The header is not "sticky" on this particular page - it does not scroll down with the user. Which also seems favorable: so there is nothing to "obstruct" or "take away" from the imagery/animation.
+
+The photo of the cloudy sky was taken by me.
+
+
+### ***News***
 
 Header is identically styled as elswhere on the website, and is "sticky" (it scrolls with the user).
 
@@ -104,7 +137,8 @@ with a text announcing that that latest EP is up, and also containg a clickable 
 
 The bottom half of the page juxstposes in a corresponding manner an imbedded YouTube video for a single of the latest EP, with a form with which user can subsribe for newsletter if they wish to be kept up to date with more news about the band.
 
-### *About*
+
+### ***About***
 
 Header and footer identical as on the "News" page.
 
@@ -135,39 +169,14 @@ This is to explain that I'm aware that green and dark tones of the leaves of the
 
 The white and the yellow pose no such issues and work quite nice; as do the textures and the creases of the actual tea towel, in my opinion.
 
-### *index.html / Punčke*
 
-The main idea for the index.html page - the "main page" of the website - stems from the band's album cover for their "Sunčano s povremenom naoblakom" LP.
-
-The title is a Croatian weather report phrase, which translates as "sunny with occassional cloudiness".
-
-Page is executed fairly sparse, consisting only of a header - styled identically as on all other subsites - and of a so-called "crossfade" animation of two images:
-one - the first one that's loaded with the page - which is a pixelated image which is the band actual cover for the aforementioned album; and the other which a photo a blue sky interspersed with patches of clouds.
-
-The second image is not initially visible. As the user opens the website and starts hovering over it, it triggers an animation where the first image slowly fades into the second, and then vice versa.
-The direction of the fading keeps alternating *ad infinitum*.
-
-There is no footer on this page, as it might take atenttion away from the images, and might not "fit" so well with them - especially 
-as the band's name and record's title are located at the bottom of the cover, and it's desirable that they both catch and occupy the user attention, as the title of record corresponds semantically with the crossfaded imagery.
-
-There is plenty of chance to use the footer's links on other pages of the website.
-
-Also, let's say this is an actual website for the band available on the internet: if a user googles the band, he or she should see all their social media profiles come up in the search results: nobody's at much of a loss if links to all those profile 
-don't also come up right on the first page of the website.
-
-This particular "sparseness" of the index page, along with the open space implied by the photo of the sky, evokes a kind of a "entry" effect - like if it was a doorway of sort: here's our website, feel free to come in to find out more.
-Which also urges user to browse the remainder of the website if he or she indeed wishes to find out more.
-
-The header is not "sticky" on this particular page - it does not scroll down with the user. Which also seems favorable: so there is nothing to "obstruct" or "take away" from the imagery/animation.
-
-The photo of the cloudy sky was taken by me.
-
-### *Merch*
+### ***Merch***
 
 As mentioned earlier, the "merch" page isn't a part of this website, but rather external to it: if you click on the "merch" 
 link in the header, it open a bands pre-existing merchandise site in a new tab.
 
-### *Gallery*
+
+### ***Gallery***
 
 The "Gallery" section consisit of band photos style into a so-called *masonry* style look.
 
@@ -191,6 +200,9 @@ This styling evokes a kind of a "dark room" feel to it, which goes with the cont
 The background image is set to repeat horizontally.
 
 Styling of the header is the same as on other pages of the website.
+
+---
+
 
 ## **Technologies and Tools Used**
 
@@ -216,9 +228,12 @@ Styling of the header is the same as on other pages of the website.
 
 * SCSS to CSS Compiler - CSS Portal
 
-* Windows Snipping Tools
+* Windows Snipping Tool
 
 * Canon MG3650 Scanner
+
+---
+
 
 ## **Testing**
 
@@ -236,11 +251,84 @@ W3C HTML and W3C CSS Validators were also use to asses the code.
 
 Use of Chrome DevTools was indispensible throughout the project.
 
+I tries using Bootstrap to solve some the issues croping up and/or expected to crop up during the development of the project,
+but gave up on that eventually, as Bootstrap was seemingly causing more issues for me than it was solving, and making me rather stuck than making headway.
 
-## **Deployement**
+
+---
 
 
+## **Deployment**
 
-<sup>1</sup> As it might become evident at this point, the design process was desktop first, and the backtracking to mobile. Which would also imply I possible didn't use Bootstrap - which I didn't. More on the reasoning - or the impulses - behind that decision later.
+**Deployment To Github Pages**
 
-<sup>2</sup> Navbar i.e. the pages links it containes are stylized horizontally, as will be shown later.
+- In my account GitHub website, I selected Repositories
+
+- I selected TravelDiary from the GitHub Dashboard.
+
+- I navigated to Settings and to the GitHub Pages section.
+
+- From the Source section, I clicked on the drop-down menu and selected Master Branch.
+
+- Once Master Branch is selected, the page has been automatically refreshed, with a detailed ribbon display GitHub Source Saved Pages indicating the successful implementation.
+
+The live link can be found here - https://clairelally8.github.io/TravelDiary/
+
+
+**Local Deployment**
+
+ - To run locally, you can do one of the following two options 
+    
+    - Clone the repository using the `git clone https://github.com/clairelally8/traveldiary.git` command
+
+    - Download the zip file, unzip and run it in your favourite local IDE (such as VS Code)
+
+---
+
+
+ ## **Credits**
+ 
+
+ ### ***Content***
+
+ The text and all the info that comprise the "About" page were taken from the band's Facebook profile
+
+
+ ### ***Media***
+
+ - Photos used for the "Gallery" page were used in the form of https links pointing to external sources - rather than downloaded to a project file folder -
+  and their sources can be tracked down through those links in the code.
+
+- Same as above goes for the background at the "Gallery" page, and the one on the "News" page, as well as for the first image (the pixelated one) used in 
+the crossfade animation on index.html
+
+- As for the rest images, that are used via the project's img folder:
+
+    - photo used on the "About" page was cut by me from the band's video that can be found here: 
+
+    - photo used on the "News" page was cut by me from a photo on the band's Bandcamp page:
+
+    - the second image - the one of the cloudy sky - from the crossfade animation at index.html was taken by me
+
+    - the background image for the "About" page was made by me by scanning a tea towels I have with a Canon MG3650 scanner, and then cutting the scan using Windows' Snipping Tool.
+    I think I bought the tea towel at my local Lidl store. It says "Meradiso" on the label 
+
+- Google Maps API documentation was used in the creation of the Script for this site. 
+
+
+### ***Acknowledgements***
+
+I used many sources of inspiration and help, for each of which I am thankful for:
+
+ - Code Institute's excercise/tutorial project, named "Love Running" - for the gallery's masonry style look idea, and the code
+
+- http://css3.bradshawenterprises.com/cfimg/#cfimg1 - for the code for the crossfading animation, which I tweaked only slightly
+
+- https://www.lebutcherettesofficial.com/ - for many ideas that ended up shaping the look of the "News" page: basically all of the textual content on the page (text used there is more or less a carbon copy of the Le Butcherettes' website), as well as the way that text is structured - structure of the form very much included
+
+- https://css-tricks.com/centering-list-items-horizontally-slightly-trickier-than-you-might-think/ - this particular article is referenced in the code
+
+- https://teamtreehouse.com/community/reordering-li-elements-to-float-right) - article also referenced in the code
+
+- https://www.w3schools.com/ and https://css-tricks.com/ in general - for all the time I spent there
+
