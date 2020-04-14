@@ -147,7 +147,7 @@ footer {
 } /*end: Gallery "masonry" style styling.*/
 
 #about-body {
-  background-image: url("/assets/img/about-background.jpg");
+  background-image: url("https://i.ibb.co/mq1xyPj/tri-limuna-cut-no-fresh.jpg");
   background-position: center;
   /*background-size: cover;*/ /*Made inactive by commenting out while trying out different visula options for this background.*/
   background-repeat: repeat-y;
