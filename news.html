@@ -13,8 +13,14 @@
 <body id="news-body">
 
 	<header>
-		<nav>
+		<nav role="custom-dropdown">
+			<!--Alternate navbar styling for smaller screens (https://css-tricks.com/responsive-menu-concepts/)-->
 			<div class="table">
+				<input type="checkbox" id="button">
+				<!--So-called "Advanced Checkbox Hack" for iOS(https://css-tricks.com/responsive-menu-concepts/)-->
+				<label for="button" onclick></label>
+				<!--So-called "Advanced Checkbox Hack" for iOS(https://css-tricks.com/responsive-menu-concepts/)-->
+
 				<ul>
 					<li><a href="news.html" class="active">news</a></li>
 					<li><a href="about.html">about</a></li>
@@ -24,6 +30,7 @@
 					<li><a href="https://puncke.bigcartel.com/" target="_blank">merch</a></li>
 					<li><a href="gallery.html">gallery</a></li>
 				</ul>
+
 			</div>
 		</nav>
 	</header>

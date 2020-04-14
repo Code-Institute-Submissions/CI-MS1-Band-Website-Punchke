@@ -13,8 +13,14 @@
 <body>
 
 	<header>
-		<nav>
+		<nav role="custom-dropdown">
+			<!--Alternate navbar styling for smaller screens (https://css-tricks.com/responsive-menu-concepts/)-->
 			<div class="table">
+				<input type="checkbox" id="button">
+				<!--So-called "Advanced Checkbox Hack" for iOS(https://css-tricks.com/responsive-menu-concepts/)-->
+				<label for="button" onclick></label>
+				<!--So-called "Advanced Checkbox Hack" for iOS(https://css-tricks.com/responsive-menu-concepts/)-->
+
 				<ul>
 					<li><a href="news.html">news</a></li>
 					<li><a href="about.html">about</a></li>
@@ -24,11 +30,13 @@
 					<li><a href="https://puncke.bigcartel.com/" target="_blank">merch</a></li>
 					<li><a href="gallery.html">gallery</a></li>
 				</ul>
+
 			</div>
 		</nav>
 	</header>
 
 	<div id="crossfade">
+		<!--Crossfade animation. (http://css3.bradshawenterprises.com/cfimg/#cfimg1)-->
 		<img class="bottom" src="/assets/img/cloudy sky with moon.jpg" alt="Cloud-speckled sky on a sunny day." />
 		<img class="top" src="https://f4.bcbits.com/img/a2195597599_16.jpg" alt="Album cover for the record 'Sunčano s povremenom naoblakom' by the band Punchke: pixelated image with dominating tones of brown and other earthy colors." />
     </div>
