@@ -444,3 +444,37 @@ nav[role="custom-dropdown"] ul > li:hover > a {
     right: 0.25em;
   }
 }/*end: Tim Pietrusky's Custom Dropdown menu styling idea (https://codepen.io/TimPietrusky/pen/gqlhA)*/
+
+/*start: Responsive styling for the News page.*/
+@media screen and (max-width: 645px) {
+  #news-section1-text {
+    clear: both;
+    margin: 0 auto;
+    width: 100% !important; /*Doesn't work without being marked as !important*/
+  }
+  
+  #newsletter-form-div {
+    clear: both;
+    margin: 0 auto;
+    width: 100%;
+    float: right;
+    right: 0;
+  }
+
+  #news-section2 iframe {
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  nav li {
+      width: 100%; 
+  }
+}/*end: Responsive styling for the News page.*/
+
+/*start: Responsive styling for the About page.*/
+@media screen and (max-width: 725px) {
+  .about-text img {
+    width: 100%;
+    left: 0;
+  }
+}/*end: Responsive styling for the About page.*/
