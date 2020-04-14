@@ -19,6 +19,29 @@ body {
   font-weight: 900;
 }
 
+/*start: "Advanced Checkbox Hack" Fix for Android (https://css-tricks.com/responsive-menu-concepts/)*/
+body {
+  -webkit-animation: bugfix infinite 1s;
+}
+@-webkit-keyframes bugfix {
+  from {
+    padding: 0;
+  }
+  to {
+    padding: 0;
+  }
+}
+input[type=checkbox] {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
+label {
+  display: none;
+  cursor: pointer;
+  user-select: none;
+}/*end: "Advanced Checkbox Hack" Fix for Android (https://css-tricks.com/responsive-menu-concepts/)*/
+
 /*start: Styling the header.*/
     /*"Sticking" the header to the top.*/
 header {
