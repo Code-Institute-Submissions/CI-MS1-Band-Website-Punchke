@@ -350,3 +350,16 @@ animation-duration: 15s;
 animation-delay: 1s;
 animation-direction: alternate;
 } /*end: Crossfading animation.*/
+
+/*start: Making the gallery responsive.*/
+@media screen and (max-width: 943px) {
+  #gallery {
+    column-count: 3;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  #gallery {
+    column-count: 2;
+  }
+} /*end: Making the gallery responsive.*/
