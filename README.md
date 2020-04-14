@@ -169,8 +169,11 @@ This is to explain that I'm aware that green and dark tones of the leaves of the
 
 The white and the yellow pose no such issues and work quite nice; as do the textures and the creases of the actual tea towel, in my opinion.
 
-I finally decided to cut the "so fresh" words from the background, as it's dark color clashed to much with the text on the page; and I set the background to repeat horizontally, resulting in a quite nice effect on mobile phones screen sizes.
+I finally decided to cut the "so fresh" words from the background (although this particular phrase corresponded nicely with the band describing themsleves as: 
+"simple, honest and perspective young band that will knock you out with their energy" - i.e. as something "fresh"), as it's dark color clashed to much with the text on the page; and I set the background to repeat horizontally, resulting in a quite nice effect on mobile phones screen sizes.
 
+In this image being that from an and of an actual kitchen towel, it adds to a more overall atmosphere of intimacy: as being invited so someone's home for tea - band being a band 
+that often played smaller venues - more "intimate" shows - and their music, both recorded and performed, being a certain act of "intimacy".
 
 ### ***Merch***
 
@@ -206,6 +209,7 @@ Styling of the header is the same as on other pages of the website.
 
 ### ***Color Scheme and Typography***
 
+#### *Colors*
 The styling of the icons in the footer was already somewhat disscused above. That styling choice originated from the "Gallery" page, and was kept on other pages for consistency.
 
 Other pages - i.e. "News" and "About" - as opossed to the "Gallery" page, have a green colored background for the footer. to keep them consistent with the header, which alos has such a background.
@@ -228,6 +232,31 @@ The "listen" button has a thin border on all sides of a dark slate-grey color - 
 When the button is hovered over, it's see-through background becomes filled with that slate-grey, as the letters of the button cahnge color in the described manner.
 
 Same slate-grey color is used for the background of the form field on the "News" page further below, for consistency.
+
+#### *Fonts*
+
+Website utilizes three fonts:
+
+* Indie Flower
+
+* Permanent Marker
+
+* Special Elite
+
+Indie Flower is used in the header and on the "About" page.
+
+Permanent Marker and Special Elite are used on the "News" page. The former is used in the section that announces the latest EP being released; the latter is used for the newsletter sign up form.
+
+The fonts were chosen to mimic a handwritten effect and feel - that being the case for the Indie Flower and Permanent Marker - and 
+Special Elite was chosen to give newsletter sign up form a typewritter form feel - something evocative of a newspaper, or a fanzine.
+
+The handwritting type fonts were to imply connotations of more ephasized intimacy - like writting a personal letter by hand, or keeping a journal or a diary.
+
+The section announcing the new EP release rendered in Permanent Marker font is also somewhat reminescent of a hand/marker-written
+message of parallel puropse somebody might stick in a small shop's windows: announcing that a new record has come in, for instance.
+
+All these fonts should also be suggestive of the underlying "DIY-ness" of the band.
+
 ---
 
 ## **Features**
@@ -277,7 +306,7 @@ Different features, ideas, and variants of the projects could be quickly tested 
 wasn't too demanding for Repl.it's capacities.
 
 Project was presented to my mentor at various stages, with invaluable feedback taken into account (for instance, that I should, as a rule of thumb, 
-avoid using more that three font families - I had four at the time, shich I then reduced to three).
+avoid using more that three font families - I had four at the time, which I then reduced to three).
 
 W3C HTML and W3C CSS Validators were also use to asses the code.
 
@@ -292,14 +321,30 @@ but gave up on that eventually, as Bootstrap was seemingly causing more issues f
 
 ## **Deployment**
 
-**Deployment To Github Pages**
+**Deployment to Github Pages**
 
-- 
+- I signed into my account on GitHub's website, and selected "Repositories".
 
+- I then selected "CI-MS1-Band-Website-Punchke" from thr repositories list.
+
+- From there I clicked on the "Settings", and the navigated down to the "GitHub Pages" section.
+
+- From the "Source" section, I clicked on the drop-down menu and selected "Master Branch".
+
+- And then I was provided with a link which represents my now deployed project.
+
+The live link can be found here - https://antecedens.github.io/CI-MS1-Band-Website-Punchke/
+
+Note: it can take a minute or two for the page to be deployed, i.e. to load or open.
 
 **Local Deployment**
 
- - 
+ - To run locally, you can do one of the following two options:
+    
+    - Clone the repository using the `git clone https://github.com/anteCedens/CI-MS1-Band-Website-Punchke.git` command
+
+    - Download the zip file, unzip and run in an IDE of your choosing
+
 
 ---
 
@@ -331,8 +376,6 @@ the crossfade animation on index.html
     - the background image for the "About" page was made by me by scanning a tea towels I have with a Canon MG3650 scanner, and then cutting the scan using Windows' Snipping Tool.
     I think I bought the tea towel at my local Lidl store. It says "Meradiso" on the label 
 
-- Google Maps API documentation was used in the creation of the Script for this site. 
-
 
 ### ***Acknowledgements***
 
@@ -354,7 +397,7 @@ I used many sources of inspiration and help, for each of which I am thankful for
 
 - https://codepen.io/TimPietrusky/pen/gqlhA - author of my chosen solution for the navbar responsiveness - I tries to tweak his code a bit - original author referenced in my project0s code
 
-- Claire Lally - for being kind enough to send me a link to her readme.md file, to assist me in writting mine - https://github.com/ClaireLally8/TravelDiary/blob/master/README.md
+- Claire Lally - for being kind enough to send me a link to her readme.md file, to assist me in writting mine - for instance, I used her "Deployment" section as a model or a template for my own - https://github.com/ClaireLally8/TravelDiary/blob/master/README.md
 
 - https://www.w3schools.com/ and https://css-tricks.com/ in general - for all the time I spent there
 
