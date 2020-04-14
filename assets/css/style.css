@@ -478,3 +478,22 @@ nav[role="custom-dropdown"] ul > li:hover > a {
     left: 0;
   }
 }/*end: Responsive styling for the About page.*/
+
+
+/*start: To keep the footer "where it belongs": 
+https://www.freecodecamp.org/news/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c/ */
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom: 2.5rem;
+}
+
+#footer-news {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}/*end: To keep the footer "where it belongs": 
+https://www.freecodecamp.org/news/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c/ */

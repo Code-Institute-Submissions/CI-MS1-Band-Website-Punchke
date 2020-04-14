@@ -11,78 +11,87 @@
 </head>
 
 <body id="news-body">
+	<div id="page-container">
+		<!--To keep the footer "where it belongs": https://www.freecodecamp.org/news/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c/-->
+		<div id="content-wrap">
 
-	<header>
-		<nav role="custom-dropdown">
-			<!--Alternate navbar styling for smaller screens (https://css-tricks.com/responsive-menu-concepts/)-->
-			<div class="table">
-				<input type="checkbox" id="button">
-				<!--So-called "Advanced Checkbox Hack" for iOS(https://css-tricks.com/responsive-menu-concepts/)-->
-				<label for="button" onclick></label>
-				<!--So-called "Advanced Checkbox Hack" for iOS(https://css-tricks.com/responsive-menu-concepts/)-->
+			<header>
+				<nav role="custom-dropdown">
+					<!--Alternate navbar styling for smaller screens (https://css-tricks.com/responsive-menu-concepts/)-->
+					<div class="table">
+						<input type="checkbox" id="button">
+						<!--So-called "Advanced Checkbox Hack" for iOS(https://css-tricks.com/responsive-menu-concepts/)-->
+						<label for="button" onclick></label>
+						<!--So-called "Advanced Checkbox Hack" for iOS(https://css-tricks.com/responsive-menu-concepts/)-->
 
-				<ul>
-					<li><a href="news.html" class="active">news</a></li>
-					<li><a href="about.html">about</a></li>
-					<li>
-						<h1><a href="index.html">PUNČKE</a></h1>
-					</li>
-					<li><a href="https://puncke.bigcartel.com/" target="_blank">merch</a></li>
-					<li><a href="gallery.html">gallery</a></li>
-				</ul>
+						<ul>
+							<li><a href="news.html" class="active">news</a></li>
+							<li><a href="about.html">about</a></li>
+							<li>
+								<h1><a href="index.html">PUNČKE</a></h1>
+							</li>
+							<li><a href="https://puncke.bigcartel.com/" target="_blank">merch</a></li>
+							<li><a href="gallery.html">gallery</a></li>
+						</ul>
 
-			</div>
-		</nav>
-	</header>
+					</div>
+				</nav>
+			</header>
 
-	<section id="news-section1">
-		<div>
-			<img src="/assets/img/Vidimo se-cover-cut.JPG" alt="Cover for the album 'Vidimo se' by the band Punchke: the three band memebers taking in the sunrays under a bridge on a nice day." />
+			<section id="news-section1">
+				<div>
+					<img src="/assets/img/Vidimo se-cover-cut.JPG" alt="Cover for the album 'Vidimo se' by the band Punchke: the three band memebers taking in the sunrays under a bridge on a nice day." />
         </div>
-			<div id="news-section1-text">
-				<h1>"VIDIMO SE"</h1>
-				<h2>THE NEW EP</h2>
-				<br />
-				<h3>AVAILABLE NOW</h3>
-				<br />
-				<a href="https://punchke.bandcamp.com/album/vidimo-se" target="_blank">LISTEN</a>
-			</div>
-	</section>
+					<div id="news-section1-text">
+						<h1>"VIDIMO SE"</h1>
+						<h2>THE NEW EP</h2>
+						<br />
+						<h3>AVAILABLE NOW</h3>
+						<br />
+						<a href="https://punchke.bandcamp.com/album/vidimo-se" target="_blank">LISTEN</a>
+					</div>
+			</section>
 
-	<section id="news-section2">
+			<section id="news-section2">
 
-		<iframe width="49.5%" height="371" src="https://www.youtube.com/embed/ME7fnRzSnac" frameborder="0"
-			allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-		</iframe>
+				<iframe width="49.5%" height="371" src="https://www.youtube.com/embed/ME7fnRzSnac" frameborder="0"
+					allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+				</iframe>
 
-		<div id="newsletter-form-div">
-			<form class="newsletter-form" action="https://formdump.codeinstitute.net/" method="post" target="_blank">
-				<h1>Sign Up For The Latest News</h1>
-				<p>Sign up with your email address to receive news and updates.</p>
-				<div class="table">
-					<ul>
-						<li><input type="text" id="nameandsurname" name="nameandsurname" placeholder=" Name and Surname" class="newsletter-form-inputs"></li>
-						<li><input type="email" id="email"  name="email" placeholder=" Email Address" class="newsletter-form-inputs"></li>
-						<li><input type="submit" value=" sign up " id="newsletter-form-submit"></li>
-					</ul>
+				<div id="newsletter-form-div">
+					<form class="newsletter-form" action="https://formdump.codeinstitute.net/" method="post"
+						target="_blank">
+						<h1>Sign Up For The Latest News</h1>
+						<p>Sign up with your email address to receive news and updates.</p>
+						<div class="table">
+							<ul>
+								<li><input type="text" id="nameandsurname" name="nameandsurname" placeholder=" Name and Surname" class="newsletter-form-inputs"></li>
+								<li><input type="email" id="email"  name="email" placeholder=" Email Address" class="newsletter-form-inputs"></li>
+								<li><input type="submit" value=" sign up " id="newsletter-form-submit"></li>
+							</ul>
+						</div>
+						<p id="newsletter-form-p2">We respect your privacy.</p>
+					</form>
 				</div>
-				<p id="newsletter-form-p2">We respect your privacy.</p>
-			</form>
+
+			</section>
+
 		</div>
+		<footer id="footer-news">
+			<ul class="social-networks">
+				<li><a href="https://www.facebook.com/puncke/" target="_blank"><i class="fab fa-facebook"></i></a>
+				</li>
+				<li><a href="https://www.instagram.com/puncke/?hl=en"
+						target="_blank"><i class="fab fa-instagram"></i></a>
+				</li>
+				<li><a href="https://www.youtube.com/user/punckeband" target="_blank"><i class="fab fa-youtube"></i></a>
+				</li>
+				<li><a href="https://twitter.com/punchke?lang=en" target="_blank"><i class="fab fa-twitter"></i></a>
+				</li>
+			</ul>
+		</footer>
 
-	</section>
-
-	<footer>
-		<ul class="social-networks">
-			<li><a href="https://www.facebook.com/puncke/" target="_blank"><i class="fab fa-facebook"></i></a></li>
-			<li><a href="https://www.instagram.com/puncke/?hl=en" target="_blank"><i class="fab fa-instagram"></i></a>
-			</li>
-			<li><a href="https://www.youtube.com/user/punckeband" target="_blank"><i class="fab fa-youtube"></i></a>
-			</li>
-			<li><a href="https://twitter.com/punchke?lang=en" target="_blank"><i class="fab fa-twitter"></i></a></li>
-		</ul>
-	</footer>
-
+	</div>
 </body>
 
 </html>
