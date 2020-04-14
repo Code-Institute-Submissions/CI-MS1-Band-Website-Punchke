@@ -387,3 +387,60 @@ animation-direction: alternate;
     column-count: 2;
   }
 } /*end: Making the gallery responsive.*/
+
+
+/*start: Tim Pietrusky's Custom Dropdown menu styling idea (https://codepen.io/TimPietrusky/pen/gqlhA)*/
+nav[role="custom-dropdown"] ul > li:hover {
+  background-color:green;
+}
+
+nav[role="custom-dropdown"] ul > li:hover > a {
+  color: #FF00FF;
+  border-bottom: 1.5px solid #FF00FF;
+}
+
+@media screen and (max-width: 44em) {
+  html, body {
+    margin: 0;
+  }
+
+  nav[role="custom-dropdown"] ul {
+    display: none;
+    height: 100%;
+  }
+
+  nav[role="custom-dropdown"] label {
+    display: block;
+    width: 100%;
+    min-height: 2.25em;
+    padding: 0.45em;
+    font-size: 1.1em;
+    margin: 0;
+    color:  #00FF00;
+  }
+  nav[role="custom-dropdown"] label:after {
+    position: absolute;
+    left: 0.25em;
+    top: 0;
+    content: "\2261";
+    font-size: 1.8em;
+  }
+  nav[role="custom-dropdown"] input[type=checkbox]:checked ~ label:after {
+    color: #FF00FF;
+  }
+
+  nav[role="custom-dropdown"] input[type=checkbox]:checked ~ ul {
+    display: block;
+  }
+
+  nav[role="custom-dropdown"] input[type=checkbox]:checked ~ ul > li {
+    width: 20em;
+    opacity: 0.8;
+    text-align: left;
+  }
+
+  nav[role="custom-dropdown"] input[type=checkbox]:checked ~ ul > li:after {
+    position: absolute;
+    right: 0.25em;
+  }
+}/*end: Tim Pietrusky's Custom Dropdown menu styling idea (https://codepen.io/TimPietrusky/pen/gqlhA)*/
