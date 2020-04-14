@@ -147,9 +147,10 @@ footer {
 } /*end: Gallery "masonry" style styling.*/
 
 #about-body {
-  background-image: url("/assets/img/tri limuna - cut.JPG");
+  background-image: url("/assets/img/tri limuna - cut - no fresh.JPG");
   background-position: center;
-  background-size: cover;
+  /*background-size: cover;*/ /*Made inactive by commenting out while trying out different visula options for this background.*/
+  background-repeat: repeat-y;
 }
 
 .about-text h2 {
