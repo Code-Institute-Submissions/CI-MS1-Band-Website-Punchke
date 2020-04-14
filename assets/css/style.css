@@ -146,11 +146,14 @@ footer {
   width: 100%;
 } /*end: Gallery "masonry" style styling.*/
 
-/*#about-body {
-  background-image: url("https://i.ibb.co/mq1xyPj/tri-limuna-cut-no-fresh.jpg");
+/* This part is commented out because there was a glitch during deployment:
+the deployed version would not load the background image, and the only thing that I found that worked was
+applying the styling in the about.html file, rather than here.
+
+#about-body {
+  background-image: url("/assets/img/tri-limuna-cut-no-fresh.jpg");
   background-position: center;
-  /*background-size: cover;*/ /*Made inactive by commenting out while trying out different visula options for this background.*/
-  /*background-repeat: repeat-y;
+  background-repeat: repeat-y;
 }*/
 
 .about-text h2 {
