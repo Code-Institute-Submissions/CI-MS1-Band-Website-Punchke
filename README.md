@@ -109,6 +109,9 @@ The direction of the fading keeps alternating *ad infinitum*.
 There is no footer on this page, as it might take atenttion away from the images, and might not "fit" so well with them - especially 
 as the band's name and record's title are located at the bottom of the cover, and it's desirable that they both catch and occupy the user attention, as the title of record corresponds semantically with the crossfaded imagery.
 
+Also, there is a nice effect where the record title's and band name's font weight and color, in their current surroundings, 
+make it seem like they "linger" a bit longer and are the last to fade in the crossfade effect into the image "beneath".
+
 There is plenty of chance to use the footer's links on other pages of the website.
 
 Also, let's say this is an actual website for the band available on the internet: if a user googles the band, he or she should see all their social media profiles come up in the search results: nobody's at much of a loss if links to all those profile 
@@ -261,7 +264,22 @@ All these fonts should also be suggestive of the underlying "DIY-ness" of the ba
 
 ## **Features**
 
+As features were already talked about to an extent in the preceding section, let's focus here on the responsiveness aspect, ant hen on possible future features to implement.
 
+Navbar "condensess" to a dropdown menu on smaller screen, while maintaining the color scheme.
+
+Individual page's change layout of their elements on smaller screen widths: the column count for the gallery for instance is reduced from 
+four first to three, and then to two.
+
+In regards to further features, I was thinkg about additionally styling the newsletter sing up form in general, and more 
+specifically to add a thank you message when a user signs up - for instance, I have a little heart animation already developed.
+
+And of course, there's the matter of plishing off of the bugs, glithes, and similar deficiencies.
+
+Layout of the band memebers, hometown etc. info on the "About" page could be improved od smaller screens.
+
+And the "News" page has some major responsiveness issues - it looks poorly on smaller screens - especially the form; 
+and there's a bug wit the footer on more medium screen width in that it doesn't stay on the bottom of the page.
 
 ---
 
@@ -346,6 +364,21 @@ Note: it can take a minute or two for the page to be deployed, i.e. to load or o
     - Download the zip file, unzip and run in an IDE of your choosing
 
 
+**Post-Deployment Glitch**
+
+After deployment, the background image for the "About" page would not load on the deployed site, although it was working fine when viewed in a browser from GitPod.
+
+Same code, behaving differently on two sites.
+
+I contacted Code Institute's Tutor Support for advice, as I couldn't figure this out. They couldn't offer an explanation either at the time.
+
+After trying different things, such as renaming my image file (https://stackoverflow.com/questions/41468951/images-not-displaying-in-github-pages), 
+tweaking the path, or uploading the image to an extrenal website and the linking to it, 
+the only thing I found that eventually did help, was, inexplicably, styling the background within the style tags of the html file, rather than in the style.css file.
+
+And without using the quotatin marks around the image's filepath.
+
+Hence the styling of the background for the "About" page in about.html.
 ---
 
 
@@ -399,5 +432,8 @@ I used many sources of inspiration and help, for each of which I am thankful for
 
 - Claire Lally - for being kind enough to send me a link to her readme.md file, to assist me in writting mine - for instance, I used her "Deployment" section as a model or a template for my own - https://github.com/ClaireLally8/TravelDiary/blob/master/README.md
 
+- https://stackoverflow.com/questions/41468951/images-not-displaying-in-github-pages - for some ideas about the "glitch" I was experiencing with the project after deployment
+
 - https://www.w3schools.com/ and https://css-tricks.com/ in general - for all the time I spent there
+
 
